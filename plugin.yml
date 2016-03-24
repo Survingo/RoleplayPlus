@@ -1,0 +1,31 @@
+name: RoleplayPlus
+main: Survingo\RoleplayPlus\RoleplayPlus
+version: 1.0.1-dev#1
+author: Survingo
+api:
+ - 1.13.1
+ - 2.0.0
+description: The Plugin for Roleplay servers!
+
+commands:
+ rpp:
+  aliases: [roleplayplus]
+  description: RoleplayPlus Main Command
+  permission: rpp.command.main
+
+permissions:
+ rpp.command.main:
+  default: true
+  description: Allow using main command
+ rpp.command.help:
+  default: true
+  description: Allow showing help list
+ rpp.command.version:
+  default: true
+  description: Allow getting version
+ rpp.command.invisible:
+  default: op
+  description: Invisible player
+ rpp.command.visible:
+  default: op
+  description: Re-seeable for players
