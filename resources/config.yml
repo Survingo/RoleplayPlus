@@ -1,1 +1,19 @@
+############
+# RoleplayPlus #
+############
 
+### EXPERIMENTAL ###
+## Weather change ##
+
+# Allow weather
+allowWeather: false
+
+# Rain in all worlds #
+# Changes biome to taiga
+# Requires allowWeather: true
+RainInWorld: false
+
+# Snow in all worlds #
+# Changes biome to ice plains
+# Requires allowWeather: true
+SnowInWorld: false
