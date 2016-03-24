@@ -8,7 +8,6 @@ use pocketmine\command\CommandSender;
 use pocketmine\entity\Entity;
 use pocketmine\event\Listener;
 use pocketmine\Player;
-use pocketmine\block\Block;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\network\protocol\AddEntityPacket;
 use pocketmine\level\Position;
